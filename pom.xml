@@ -1,0 +1,145 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>au.com.iag.gpp</groupId>
+  <artifactId>PegaShared</artifactId>
+  <version>1.0.0</version>
+  <packaging>war</packaging>
+  <dependencies>
+	<dependency>
+	 <groupId>commons-codec</groupId>
+     <artifactId>commons-codec</artifactId>
+	  <version>1.10</version>
+	  <!--<scope><version>1.13</version></scope>   -->
+	 <scope>provided</scope>
+	</dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>3.7-beta1</version>
+	<!--<scope><version>3.17</version></scope>   -->
+    <scope>provided</scope>
+	</dependency>
+	<dependency>
+    <groupId>commons-collections</groupId>
+    <artifactId>commons-collections</artifactId>
+    <version>3.2.1</version>
+</dependency>
+<dependency>
+    <groupId>commons-logging</groupId>
+    <artifactId>commons-logging</artifactId>
+    <version>1.2</version>
+</dependency>
+<dependency>
+    <groupId>com.ibm.db2.jcc</groupId>
+    <artifactId>db2jcc</artifactId>
+    <version>db2jcc4</version>
+</dependency>
+<dependency>
+    <groupId>FontBox</groupId>
+    <artifactId>FontBox</artifactId>
+    <version>0.1.0-dev</version>
+</dependency>
+<!-- <dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpclient</artifactId>
+    <version>4.5.2</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpcore</artifactId>
+    <version>4.4.5</version>
+</dependency> -->
+<dependency>
+    <groupId>com.octo.captcha</groupId>
+    <artifactId>jcaptcha</artifactId>
+    <version>1.0-all</version>
+</dependency>
+<dependency>
+    <groupId>org.jfree</groupId>
+    <artifactId>jfreechart</artifactId>
+    <version>1.0.15</version>
+</dependency>
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1</version>
+</dependency>
+<dependency>
+    <groupId>pdfbox</groupId>
+    <artifactId>pdfbox</artifactId>
+    <version>0.7.2</version>
+</dependency>
+<dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>1.2.14</version>
+</dependency> <!-- Not fixed in any log4j1.x -->
+<dependency>
+    <groupId>stax</groupId>
+    <artifactId>stax</artifactId>
+    <version>1.2.0</version>
+</dependency>
+<dependency>
+    <groupId>stax</groupId>
+    <artifactId>stax-api</artifactId>
+    <version>1.0</version>
+</dependency>
+<dependency>
+    <groupId>jsr94</groupId>
+    <artifactId>jsr94</artifactId>
+    <version>1.1</version>
+</dependency> 
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpclient</artifactId>
+    <version>4.1.2</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.httpcomponents</groupId>
+    <artifactId>httpcore</artifactId>
+    <version>4.1.3</version>
+</dependency>
+<!-- <dependency>
+    <groupId>com.ibm</groupId>
+    <artifactId>db2jcc_license_cu</artifactId>
+    <version>9</version>
+</dependency> not available in nexus-->
+	
+</dependencies>
+</project>
+<!--  There is no jsr94 with version 1.0 in Maven --> 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
