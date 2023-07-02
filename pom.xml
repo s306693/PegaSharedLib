@@ -9,7 +9,7 @@
 	<dependency>
 	 <groupId>commons-codec</groupId>
      <artifactId>commons-codec</artifactId>
-	  <version>1.10</version>
+	  <version>1.15</version>
 	  <!--<scope><version>1.13</version></scope>   -->
 	 <scope>provided</scope>
 	</dependency>
